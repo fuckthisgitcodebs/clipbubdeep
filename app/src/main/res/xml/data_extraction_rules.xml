@@ -1,0 +1,8 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- No user data to back up yet -->
+    </cloud-backup>
+</data-extraction-rules>

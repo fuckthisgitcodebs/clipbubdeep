@@ -1,0 +1,24 @@
+<resources>
+<string name="app_name">Text Command Overlay</string>
+<string name="accessibility_service_label">Text Command Overlay Service</string>
+<string name="accessibility_service_description">Detects text selection and shows a floating orbiting command menu (Share, Copy, Append, Paste, Tasker).</string>
+<string name="enable_service">Enable Accessibility Service</string>
+<string name="enable_service_hint">Enable \"Text Command Overlay Service\" in Accessibility settings</string>
+<string name="open">Open</string>
+<string name="settings">Settings</string>
+<string name="settings_title">Settings</string>
+<string name="main_description">Select any text anywhere → orbiting floating menu appears.\n\nDrag the center button freely — it will NOT disappear.\n\nFeatures: Share • Copy • Append • Paste • Send to Tasker</string>
+<string name="main_footer">After enabling, select any text in any app.</string>
+<string name="share">Share</string>
+<string name="copy">Copy</string>
+<string name="append">Append</string>
+<string name="paste">Paste</string>
+<string name="tasker">Tasker</string>
+<string name="main_menu">Main menu</string>
+<string name="share_via">Share via</string>
+<string name="copied">Copied ✓</string>
+<string name="appended">Appended ✓</string>
+<string name="no_editable_field">No editable field focused</string>
+<string name="sent_to_tasker">Sent to Tasker ✓</string>
+
+</resources>
