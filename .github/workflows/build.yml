@@ -24,7 +24,8 @@ jobs:
 
       - name: Build with Gradle
         run: ./gradlew assembleDebug
-
+        shell: bash
+        
       - name: Run tests
         run: ./gradlew test
 
