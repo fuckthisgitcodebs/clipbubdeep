@@ -20,14 +20,16 @@ jobs:
           distribution: 'temurin'
 
       - name: Download fresh Gradle Wrapper (script + jar) — fixes all past corruption
-        run: |
-          mkdir -p gradle/wrapper
-          curl -L -o gradlew https://raw.githubusercontent.com/gradle/gradle/v8.10.2/gradlew
-          curl -L -o gradle/wrapper/gradle-wrapper.jar https://raw.githubusercontent.com/gradle/gradle/v8.10.2/gradle/wrapper/gradle-wrapper.jar
-          chmod +x gradlew
+        run: mkdir -p gradle/wrapper
 
       - name: Build with Gradle
-        run: ./gradlew assembleDebug --stacktrace
+        run: ./gradlew assembleDebug
 
       - name: Run tests
         run: ./gradlew test
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-debug
+          path: app/build/outputs/apk/debug/app-debug.apk
