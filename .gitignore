@@ -3,11 +3,8 @@
 *.ap_
 *.dex
 *.class
-bin/
 gen/
 out/
-build/
-.gradle/
 .cxx/
 local.properties
 *.log
