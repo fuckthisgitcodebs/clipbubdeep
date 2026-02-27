@@ -4,8 +4,18 @@ id("org.jetbrains.kotlin.android")
 }
 
 android {
-namespace = "com.haunted421.textcommandoverlay"
-compileSdk = 35
+    namespace = "com.haunted421.textcommandoverlay"
+
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "com.haunted421.textcommandoverlay"
+        minSdk = 21
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
+    }
+}
 
 }
 
