@@ -12,5 +12,5 @@ google()
 mavenCentral()
 }
 }
-rootProject.name = "TextCommandOverlay"
+rootProject.name = "ClipBubDeep"
 include(":app")

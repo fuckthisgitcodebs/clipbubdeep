@@ -1,5 +1,6 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 
 <full-backup-content>
-    <!-- No user data to back up yet -->
+    <!-- Clipboard history is stored in app's private database, automatically backed up if enabled -->
 </full-backup-content>

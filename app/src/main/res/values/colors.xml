@@ -1,0 +1,12 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- SwiftKey Neon theme – dark background with cyan accents -->
+    <color name="keyboard_background">#0A0A0A</color>        <!-- Deep black base -->
+    <color name="keyboard_key">#1A1A1A</color>              <!-- Dark gray keys -->
+    <color name="keyboard_text">#E0E0E0</color>              <!-- Light text (almost white) -->
+    <color name="keyboard_secondary">#9E9E9E</color>         <!-- Muted gray for hints -->
+    <color name="keyboard_accent">#00FFFF</color>            <!-- Neon cyan for highlights -->
+    <color name="keyboard_stroke">#00FFFF</color>            <!-- Cyan stroke for buttons/menu -->
+</resources>
