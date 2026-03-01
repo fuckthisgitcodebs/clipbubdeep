@@ -1,6 +1,4 @@
-
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
     <string name="app_name">ClipBub Deep</string>
     <string name="accessibility_service_label">ClipBub Deep Service</string>
@@ -30,5 +28,29 @@
     <string name="search_hint">Search history…</string>
     <string name="action_customization_instruction">Drag to reorder, toggle to enable/disable.</string>
     <string name="customize_actions">Customize Actions</string>
-
+    <string name="pref_category_behavior">Behavior</string>
+    <string name="pref_category_actions">Actions</string>
+    <string name="pref_auto_hide_title">Auto-hide timeout</string>
+    <string name="pref_auto_hide_summary">Time before menu hides automatically (milliseconds)</string>
+    <string-array name="auto_hide_entries">
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="auto_hide_values">
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>0</item>
+    </string-array>
+    <string name="pref_radius_title">Menu radius (dp)</string>
+    <string name="pref_radius_summary">Distance of action buttons from center</string>
+    <string name="pref_size_title">Menu container size (dp)</string>
+    <string name="pref_size_summary">Overall size of the floating menu area</string>
+    <string name="pref_tasker_action_title">Tasker broadcast action</string>
+    <string name="pref_tasker_action_summary">Custom intent action for Tasker integration</string>
+    <string name="action_customization">Customize Actions</string>
 </resources>

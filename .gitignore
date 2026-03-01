@@ -14,14 +14,14 @@ local.properties
 *.iml
 .idea/
 *.ipr
-.iws
+*.iws
 captures/
 .externalNativeBuild/
 crashlytics-build.properties
 fabric.properties
 .DS_Store
 .DS_Store?
-._
+._*
 .Spotlight-V100
 .Trashes
 ehthumbs.db

@@ -1,6 +1,4 @@
-
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
     <dimen name="menu_container_size">460dp</dimen>
     <dimen name="main_button_size">68dp</dimen>
